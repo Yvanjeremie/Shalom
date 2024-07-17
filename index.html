@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy 20th Birthday Shalom!💙</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-image: url('yvannn.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        text-align: center;
+        margin-top: 50px;
+        width: 100%;
+        height: 100vh;
+    }
+    h1 {
+        background: linear-gradient(to left, blue, skyblue);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    #crush-pic {
+        display: none;
+        width: 200px;
+        border-radius: 100%;
+        margin-top: 100px;
+    }
+    #message-container {
+        display: none;
+        width: 320px;
+        margin: 0 auto;
+        overflow-y: auto;
+    }
+    #message {
+        font-size: 14px;
+        background: darkblue;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-top: 20px;
+        font-weight: bold;
+        padding: 10px;
+    }
+    .love-btn {
+        padding: 10px 20px;
+        font-size: 20px;
+        background-color: #ff69b4;
+        color: navy;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        animation: heartbeat 1.5s infinite;
+    }
+    .love-btn:hover {
+        background-color: #ff1493;
+    }
+    .hidden-btn {
+        display: none;
+        padding: 10px 20px;
+        font-size: 20px;
+        background-color: #87CEEB; /* Light blue color */
+        color: royalblue;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        animation: heartbeat 1.5s infinite;
+    }
+    .hidden-btn:hover {
+        background-color: #1e90ff;
+    }
+    @keyframes heartbeat {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.1);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+    .cake-container {
+        display: none;
+        margin-top: 40px;
+    }
+    .cake {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto;
+        position: relative;
+    }
+    .cake .layer {
+        width: 200px;
+        height: 50px;
+        margin: 5px 0;
+        background-color: #87CEEB; /* Light blue color for cake */
+        border-radius: 10px;
+        position: relative;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        background: repeating-linear-gradient(
+            45deg,
+            #87CEEB,
+            #87CEEB 10px,
+            #1e90ff 10px,
+            #1e90ff 20px
+        );
+    }
+    .cake .layer::before {
+        content: '';
+        display: block;
+        width: 180px;
+        height: 10px;
+        background-color: #1e90ff; /* Darker blue for icing */
+        border-radius: 5px;
+        position: absolute;
+        top: -10px;
+        left: 10px;
+    }
+    .cake .candle-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: -40px;
+        left: 0;
+        width: 100%;
+    }
+    .cake .candle {
+        width: 20px;
+        height: 50px;
+        background: linear-gradient(to bottom, #62cff4, #2c67f2);
+        margin: 0 5px;
+        border-radius: 4px;
+        position: relative;
+    }
+    .cake .candle:before {
+        content: '';
+        display: block;
+        width: 10px;
+        height: 15px;
+        background-color: #ffd700; /* Gold for flame */
+        border-radius: 50%;
+        position: absolute;
+        top: -15px;
+        left: 5px;
+    }
+    .cake .candle.number-candle {
+        width: 20px;
+        height: 50px;
+        background: linear-gradient(to bottom, #62cff4, #2c67f2);
+        margin: 0 5px;
+        border-radius: 4px;
+        position: relative;
+        font-size: 18px;
+        font-weight: bold;
+        color: #ff4500; /* Orange color for the number */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cake .candle.number-candle:before {
+        content: '';
+        display: block;
+        width: 10px;
+        height: 15px;
+        background-color: #ffd700; /* Gold for flame */
+        border-radius: 50%;
+        position: absolute;
+        top: -15px;
+        left: 5px;
+    }
+</style>
+</head>
+<body>
+    <h1>Happy 20th Birthday Shalom!💙</h1>
+    <button class="love-btn" id="show-hidden-btn"><i class="fas fa-heart"></i> Click Here To See The Magic😊</button>
+    <audio id="sound" src="Happy Birthday to You - piano instrumental with lyrics.mp3"></audio>
+    <img id="crush-pic" src="IMG_20211126_082652.jpg" alt="Picture of My Crush">
+    <div id="message-container">
+        <div id="message">
+            <h1>Happy Happy Birthday Shalom!</h1>
+            STAY HEALTHY AND PRETTY<br>
+            TAKE CARE ALWAYS, GOD BLESS YOU! AND YOUR FAMILY<br>
+            ENJOY YOUR WONDERFUL DAY. DITO LANG AKO PALAGI PARA SAYO, AS YOUR FRIEND, I HOPE AND PRAY NA MAKAMIT MO LAHAT NG MINIMITHI MO SA BUHAY<br>
+            I PRAY DIN NA GUMALING KANA NG TULUYAN SA SAKIT MO, AND I'M STILL HERE ADMIRING YOU PA RIN, ITS BEEN 3 YEARS NA DIN PALA HAHAHAH<br>
+            I JUST WANT TO THANK YOU SA LAHAT NG ENCOURAGEMENT AND SA SUPPORT, YOU MEAN SO MUCH TO ME, MORE FELLOWSHIP PA WITH YOU<br>
+            KEEP SAFE AND GOD BLESS YOU ALWAYS!🫶
+            
+              
+              
+              
+              
+              
+        </div>
+    </div>
+    <div class="cake-container" id="cake-container">
+        <div class="cake">
+            <div class="candle-container">
+                <div class="candle number-candle">2</div>
+                <div class="candle number-candle">0</div>
+            </div>
+            <div class="layer"></div>
+            <div class="layer"></div>
+        </div>
+    </div>
+    <button class="hidden-btn" id="open-link-btn">Tap mo to sha</button>
+
+    <script>
+        document.getElementById("show-hidden-btn").addEventListener("click", function() {
+            // Display the hidden butto
+            // Display the image and message
+            document.getElementById("crush-pic").style.display = "block";
+            document.getElementById("message-container").style.display = "block";
+            // Display the cake
+            document.getElementById("cake-container").style.display = "block";
+            // Hide the first button
+            document.getElementById("show-hidden-btn").style.display = "none";
+            // Play the sound
+            document.getElementById("sound").play();
+        });
+
+        document.getElementById("open-link-btn").addEventListener("click", function() {
+            // Open the link (replace "YOUR_LINK_HERE" with your actual link)
+            window.open("https://codepen.io/mdusmanansari/pen/BamepLe", "_blank");
+        });
+    </script>
+</body>
+</html>
